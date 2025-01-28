@@ -1,0 +1,5 @@
+This "Notflix" project (haha) was a fun and engaging exercise. I've been learning HTML, JavaScript, Lua, Python, and Firebase, for quite a bit and I'm currently working on a few personal projects to build my portfolio. So, while I had some prior knowledge, this project was a good opportunity to apply those skills in a creative way and continue learning more about HTML and web development within the context of this course, which I'm finding very interesting.
+
+I found it to be a pretty straightforward project, which was nice. The core HTML and CSS concepts were familiar to me, so I could focus on the creative aspects, like the cat-themed netflix remix, content and the playful navigation. I spent some time browsing and selecting the cat images and videos, and I enjoyed figuring out how to best display them on the page.
+
+Overall, it was a positive experience. It reinforced my understanding of web development fundamentals and allowed me to express my creativity within the project constraints. I'm looking forward to tackling more projects like this and continuing to expand my knowledge in this course.
