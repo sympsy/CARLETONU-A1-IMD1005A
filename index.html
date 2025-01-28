@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOTFLIX</title>
-    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./assets/styles/stylesheet1.css">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="icon" href="https://icon-library.com/images/icon-for-netflix/icon-for-netflix-27.jpg">
 </head>
 
 <body>
     <div class="header">
-        <!-- <a style="font-size: 20px; font-weight: bold;" href="./index.html">FSHNRY</a> -->
-
+        <!-- I wanted a more customized navgrid so I didn't use the NavTag -->
+        
         <div class="navGrid">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/1200px-Netflix_2015_N_logo.svg.png">
-            <button class="navButton" href="/graphic_design.html" id="landingBadge">Home</button>
-            <!---- id="activeNavButton"-->
-            <button class="navButton" href="/graphic_design.html" id="activeNavButton">TV Shows</button>
-            <!---- id="activeNavButton"-->
-            <button class="navButton" href="/programming.html">Movies</button>
-            <button class="navButton" id="landingPostButton">New & Popular</button>
-            <button class="navButton" id="landingPostButton">My List</button>
-            <button class="navButton" id="landingPostButton">Browse by Languages</button>
+            
+            <a href="/index.html"><button class="navButton" id="activeNavButton">Home</button></a>
+            <a href="/cat-library.html"><button class="navButton">Cat Library</button></a>
+            <button class="navButton">Movies</button>
+
+            <a target="_blank" href="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg"><button class="navButton">Don't Click Me</button></a>
+            <a target="_blank" href="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg"><button class="navButton">Me Neither</button></a>
+            <a target="_blank" href="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg"><button class="navButton" >Not Me</button></a>
         </div>
 
     </div>
@@ -29,11 +31,35 @@
     <div class="featuredContent">
         <div class="featuredContentInfo">
             <h1>THE PLATFORM</h1>
-            <h2>#1 in TV Shows Today</h2>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, laboris nisi ut aliquip ex ea commodo consequat.</h3>
+            <h2>#1 in TV Shows I've Watched Recently</h2>
+            <h3>Lorem ipsum dolor sit amet, bonjour comment ca va hola estoy bien toyota, caravan information technology in an algonquin college univeristy carleton.</h3>
+            <div class="featuredContentOptions">
+                <button id="playButton">Play</button>
+                <button id="moreInfoButton">More Info</button>
+            </div>
         </div>
-        <img src="/feature.png">
+        <img src="/assets/images/feature.png">
     </div>
 
+    <div class="mediaCategory">
+        <h1>My Favorite Movies</h1>
+        <div class="mediaItems">
+            <img src="./assets/images/media_categories/favorite_movies/avengers_infinity_war.webp">
+            <img src="./assets/images/media_categories/favorite_movies/avengers_end_game.webp">
+            <img src="https://gugimages.s3.us-east-2.amazonaws.com/wp-content/uploads/2014/11/23074458/Interstellar-IMAX-Poster-Wallpaper.jpg">
+        </div>
+    </div>
 
+    <div class="mediaCategory">
+        <h1>My Favorite TV Shows</h1>
+        <div class="mediaItems">
+            <img src="https://theactionhospital.com/wp-content/uploads/2013/10/breaking-bad-background-hd-wallpaper.png">
+            <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQbm_e3DQYMqYApzHilEi8qF94zu9K_GiyEvxjgvBkIQNQSa7-BkkHBIisOIdPFdIkc77oWrA-a6LV8egGCoszLt1hpQ2TJz8-IBiUVfp8qwimlu3D5Yk83WUteWY1dElPHDp3DQco9xxtM3EHutQeyAvttk.jpg?r=f03">
+            <img src="https://tsupp.wordpress.com/wp-content/uploads/2015/03/qdfc7pzsrjm-market_maxres.jpg">
+        </div>
+    </div>
+
+    <div class="customFooter">
+        <p>Copyright Jaheim S. 2025 - Notflix is Inspired by the Netflix Layout and Should totally NOT be confused with Netflix</p>
+    </div>
 </body>

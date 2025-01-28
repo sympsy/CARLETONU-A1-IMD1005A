@@ -1,6 +1,6 @@
 @font-face {
-    font-family: montserrat;
-    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+    font-family: funnel;
+    src: url(../fonts/FunnelDisplay-VariableFont_wght.ttf);
 }
 
 :root {
@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: montserrat;
+    font-family: funnel;
     background-color: var(--background-color-primary);
     /*padding-top: 0.7rem;*/
 }
@@ -30,18 +30,22 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+pre {
+    font-size: 1vw;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* 
-    Adding Sticky Header with below code */
-    position: sticky;
-    top: 0;
     padding-top: 0.5vw;
     padding-left: 3vw;
     padding-right: 3vw;
-    z-index: 1;
 }
 
 .navGrid {
@@ -63,14 +67,14 @@ body::-webkit-scrollbar {
     border: none;
     background: transparent;
     color: var(--almost-black);
-    opacity: 0.85;
+    opacity: 0.9;
     font-size: 0.75vw;
     font-weight: 400;
     
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-family: montserrat;
+    font-family: funnel;
     color: white;
 
     cursor: pointer;
@@ -82,49 +86,33 @@ body::-webkit-scrollbar {
 
 /*   */
 
-.featuredContent {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.featuredContent img {
-    width: 100%;
-}
-
-.featuredContentInfo {
-    position: absolute;
+.mediaCategory {
     color: white;
-    padding-top: 0.5vw;
-    padding-left: 3vw;
-    margin-top: 10vw;
-}
-
-.featuredContentInfo h1, h2 {
-    display: flex;
+    font-size: 0.55vw;
     position: relative;
-    font-weight: 1000;
-    font-size: 3vw;
-    margin-bottom: 0.5vw;
+    padding-left: 2.5vw;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
 }
 
-.featuredContentInfo h1 {
-    font-weight: 1000;
-    font-size: 3vw;
-    margin-bottom: 0.5vw;
+.mediaItems img{
+    border-radius: 5px;
+    width: 20vw;
+    height: 11vw;
+    margin-right: 1vw;
+    opacity: 0.8;
+    object-fit: fill;
 }
 
-.featuredContentInfo h2 {
-    font-weight: 600;
-    font-size: 1vw;
-    margin-bottom: 0.25vw;
+/*   */
+
+.customFooter {
+    position: relative;
+    color: white;
+    opacity: 0.5;
+    padding-left: 2.5vw;
+    padding-bottom: 1vw;
+    font-size: 0.7vw;
+    top: 100%;
 }
 
-.featuredContentInfo h3 {
-    font-weight: 400;
-    font-size: 0.9vw;
-    margin-bottom: 0.25vw;
-    width: 32vw;
-}
